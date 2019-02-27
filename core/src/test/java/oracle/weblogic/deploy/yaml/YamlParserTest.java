@@ -60,8 +60,8 @@ public class YamlParserTest extends YamlBaseListener {
     private static final String EXPECTED_GENERIC1_URL =
         "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=slc05til.us.oracle.com)" +
             "(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=orcl.us.oracle.com)))";
-    private static final String EXPECTED_GENERIC2_URL = "jdbc:oracle:thin:@//den00chv.us.oracle.com:1521/PDBORCL";
-    private static final String EXPECTED_LISTEN_APP_SOURCE_PATH = "wlsdeploy/apps/get-listen-address-app.war";
+    private static final String EXPECTED_GENERIC2_URL = "'jdbc:oracle:thin:@//den00chv.us.oracle.com:1521/PDBORCL'";
+    private static final String EXPECTED_LISTEN_APP_SOURCE_PATH = "'wlsdeploy/apps/get-listen-address-app.war'";
 
     private static final int EXPECTED_GENERIC2_MAX_CAPACITY = 15;
     private static final String EXPECTED_GENERIC2_TEST_TABLE_NAME = "SQL ISVALID";
